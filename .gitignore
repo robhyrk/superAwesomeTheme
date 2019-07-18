@@ -42,13 +42,13 @@ access_log
 # Ignore everything in "plugins" except certain plugins. #
 # ========================================================== #
 plugins/*
-!plugins/redstarter-functionality/
-!plugins/business-hours-widget/
+!plugins/starter-business-hours/
+!plugins/starter-functionality/
 
 # Ignore everything in "themes" except the active theme. #
 # ========================================================== #
 themes/*
-!themes/miranda/
+!themes/superAwesome/
 
 # Ignore WP Migrate DB Dir #
 # =============== #
@@ -56,4 +56,4 @@ uploads/wp-migrate-db/
 
 # Ignore packages #
 # =============== #
-themes/miranda/node_modules/
+themes/superAwesome/node_modules/
